@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# --- Virtual Environment ---
+venv/
+.env/
+
+# --- Streamlit secrets ---
+.streamlit/secrets.toml
+
+# --- OS / Editor Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Jupyter / Notebook (if any) ---
+*.ipynb_checkpoints/
+
+# --- Logs / Cache ---
+*.log
+.cache/

@@ -1,0 +1,13 @@
+finta
+keras
+millify
+numpy
+pandas
+plotly
+scikit_learn
+streamlit
+ta
+tensorflow
+yfinance
+psycopg2-binary
+sqlalchemy
