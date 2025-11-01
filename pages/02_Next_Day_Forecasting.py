@@ -20,6 +20,7 @@ rn.seed(1)
 
 st.title('Next-Day Price Forecasting (LSTM)')
 st.write("This page uses a Long Short-Term Memory (LSTM) model, a type of recurrent neural network, to forecast the next trading day's closing price. The model is trained on the fly using the last 5 years of data.")
+st.write("LSTM model is chosen as it achieved the lowest RMSE among all compared models, indicating the best prediction accuracy. [Click here](https://github.com/TrilokShetty/stock-analysis-prediction-alerting-system/blob/main/Stock-Prediction.ipynb)")
 
 # Load Symbols
 @st.cache_data
