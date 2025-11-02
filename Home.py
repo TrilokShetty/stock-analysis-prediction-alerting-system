@@ -3,7 +3,6 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Stock Analysis Dashboard",
-    page_icon="📈",
     layout="wide"
 )
 
@@ -24,3 +23,4 @@ Welcome to your financial dashboard. This tool is designed for investors and tra
 """)
 
 st.info("Please select a page from the sidebar to begin.")
+st.info("To know more about how to use this app [Click Here](https://github.com/TrilokShetty/stock-analysis-prediction-alerting-system/tree/main)")
